@@ -86,6 +86,7 @@ int main()
 		printf("\n");
 	}
 
+	// 2의 배수 전부 삭제 ///////
 	if (LFirst(&data))
 	{
 		if (data % 2 == 0)
@@ -108,4 +109,5 @@ int main()
 	return 0;
 }
 
-// Using cur pointer instead of (LFirst, LNext, &data)
+// 굳이 LFirst, LNext, &data 이런거 안하고 cur포인터 잘 조절해가면서 조회 삭제 가능
+// Init, Insert, Remove 그림 그려가면서 보면 이해는 되는데 바로 짤 수 있을 정도로 외우기
