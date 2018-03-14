@@ -69,7 +69,7 @@ int main()
 		if (a == b) continue;
 		parent[b] = a;
 		ans += e[i].cost;
-		// N-1개의 간선 찾으면 종료하도록, 사실안해도 괜찮
+		// N-1개의 간선 찾으면 종료하도록, 사실안해도 괜찮다.
 		if (++cnt == N - 1) break;
 	}
 	cout << ans << endl;
