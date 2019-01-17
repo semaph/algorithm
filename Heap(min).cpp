@@ -39,7 +39,6 @@ int pop()
 
 int main()
 {
-	int arr[11];
 	for (int i = 0; i < 10; i++)
 		push(10 - i);
 
